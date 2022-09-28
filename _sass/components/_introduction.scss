@@ -1,0 +1,25 @@
+.introduction {
+  width: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  .introduction-image {
+    flex: 0 0 auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .introduction-title {
+    font-family: $font-family-heading;
+  }
+  .introduction-content {
+    margin-bottom: 0;
+    margin-top: auto;
+  }
+}
